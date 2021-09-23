@@ -1,3 +1,15 @@
 .containerFinalPagina {
     font: bold 12px arial, verdana;
 }
+
+
+/* CREDITOS */
+.imagenCreditos {
+    width: 100px;
+    height: 100px;
+}
+
+.columnaCreditos {
+    padding-left: 50px;
+    padding-right: 50px;
+}
