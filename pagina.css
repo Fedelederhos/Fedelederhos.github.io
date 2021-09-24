@@ -5,6 +5,10 @@
     Gris: #999999
 */
 
+/* Imagenes
+    Perfil: https://i.imgur.com/qWJMIiU.png
+*/
+
 /* CUERPO */
 html, body {
     width: 100%;
@@ -42,9 +46,15 @@ html, body {
 
 .titulo {
     width: 100%;
-    padding: 0px 10px 0px 10px;
     font-weight: bold;
     font-family: Corbel;
+}
+
+.fotoPerfil {
+    border-radius: 50%;
+    border: 10px solid #f0ddbc;
+    width: 11.5%;
+    height: 11.5%;
 }
 
 /* CREDITOS */
