@@ -1,7 +1,51 @@
-.containerFinalPagina {
-    font: bold 12px arial, verdana;
+/* Colores 
+    Azul: #3a4257
+    Beige: #f0ddbc
+    Blanco: #f6f6f6
+    Gris: #999999
+*/
+
+/* CUERPO */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
+.contenedorCuerpo {
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.contenedorCuerpo > div {
+    flex: 1;
+    display: flex;
+}
+
+.contenedorCuerpoDerecho {
+    background: #3a4257;
+}
+
+.contenedorCuerpoIzquierdo {
+    background: #f6f6f6;
+}
+
+.saludo {
+    width: 100%;
+    font-weight: bold;
+    font-family: Consolas;
+}
+
+.titulo {
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+    font-weight: bold;
+    font-family: Corbel;
+}
 
 /* CREDITOS */
 .imagenCreditos {
