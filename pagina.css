@@ -7,9 +7,11 @@
 
 /* Imagenes
     Perfil: https://i.imgur.com/qWJMIiU.png
+    Logo: https://i.imgur.com/JM3ztDl.png
 */
 
 /* CUERPO */
+
 html, body {
     width: 100%;
     height: 100%;
@@ -34,12 +36,14 @@ html, body {
     background: #3a4257;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .contenedorCuerpoIzquierdo {
     background: #f6f6f6;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .saludo {
@@ -62,12 +66,21 @@ html, body {
 }
 
 /* CREDITOS */
-.imagenCreditos {
-    width: 100px;
-    height: 100px;
+
+.imagenLogo {
+    width: 80px;
+    height: 80px;
+    align-self: end;
+    position: absolute;
+    bottom: 0;
+    padding: 0px 20px 10px 0px;
 }
 
-.columnaCreditos {
-    padding-left: 50px;
-    padding-right: 50px;
+.imagenUTN {
+    width: 80px;
+    height: 80px;
+    align-self: start;
+    position: absolute;
+    bottom: 0;
+    padding: 0px 0px 10px 20px;
 }
