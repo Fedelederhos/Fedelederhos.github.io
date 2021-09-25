@@ -8,6 +8,7 @@
 /* Imagenes
     Perfil: https://i.imgur.com/qWJMIiU.png
     Logo: https://i.imgur.com/JM3ztDl.png
+    UTN2: https://i.imgur.com/E0yW88w.png
 */
 
 /* CUERPO */
@@ -73,14 +74,14 @@ html, body {
     align-self: end;
     position: absolute;
     bottom: 0;
-    padding: 0px 20px 10px 0px;
+    padding: 0px 20px 20px 0px;
 }
 
 .imagenUTN {
-    width: 80px;
+    width: 157px;
     height: 80px;
     align-self: start;
     position: absolute;
     bottom: 0;
-    padding: 0px 0px 10px 20px;
+    padding: 0px 0px 20px 20px;
 }
