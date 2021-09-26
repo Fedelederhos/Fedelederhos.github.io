@@ -1,14 +1,19 @@
 /* Colores 
     Azul: #3a4257
     Beige: #f0ddbc
+    Beige oscuro: #c99b67
     Blanco: #f6f6f6
     Gris: #999999
+    Negro: #393939
 */
 
 /* Imagenes
     Perfil: https://i.imgur.com/qWJMIiU.png
     Logo: https://i.imgur.com/JM3ztDl.png
     UTN2: https://i.imgur.com/E0yW88w.png
+    IconoCorreo: https://i.imgur.com/AyPTi8L.png
+    IconoIN: https://i.imgur.com/XESpe4N.png
+    IconoIG: https://i.imgur.com/coVqmDO.png
 */
 
 /* CUERPO */
@@ -47,12 +52,6 @@ html, body {
     position: relative;
 }
 
-.saludo {
-    width: 100%;
-    font-weight: bold;
-    font-family: Consolas;
-}
-
 .titulo {
     width: 100%;
     font-weight: bold;
@@ -61,13 +60,12 @@ html, body {
 
 .fotoPerfil {
     border-radius: 50%;
-    border: 10px solid #f0ddbc;
+    border: 10px solid #c99b67;
     width: 11.5%;
     height: 11.5%;
 }
 
 /* CREDITOS */
-
 .imagenLogo {
     width: 80px;
     height: 80px;
@@ -84,4 +82,37 @@ html, body {
     position: absolute;
     bottom: 0;
     padding: 0px 0px 20px 20px;
+}
+
+.iconoContacto {
+    width: 22px;
+    height: 22px;
+    margin-top: 4px;
+}
+
+.textoContacto {
+    font-family: Corbel;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.textoContacto:link {
+    color: #000000;
+}
+
+.textoContacto:visited {
+    color: #000000;
+}
+
+.textoContacto:focus {
+    color: #000000;
+}
+
+.textoContacto:hover {
+    color: #3a4257;
+}
+
+.textoContacto:active {
+    color: #000000;
 }
