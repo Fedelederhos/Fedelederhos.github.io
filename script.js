@@ -81,3 +81,8 @@ if (isMobile) {
     box1text.textContent = "UTN FRCU";
     box2text.textContent = "GIBD";
 }
+
+//SCRIPT PARA REDIRIGIR A OTRA PÁGINA EN EL BOX3
+document.querySelector('.box3 .image-button').addEventListener('click', () => {
+    window.location.href = 'path/to/another/page.html';
+});

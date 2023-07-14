@@ -300,6 +300,59 @@ body, html {
     bottom: 12px;
 }
 
+.box3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+    max-width: 540px;
+}
+
+.box3-text {
+    flex-grow: 1;
+    padding: 7px 10px 10px 0px;
+    text-align: left;
+    font-family: Montserrat;
+    color: #000;
+    line-height: 20px;
+    font-size: 10pt;
+    max-width: 500px;
+}
+
+.box3-image {
+    position: relative;
+    flex-grow: 0;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    text-align: center;
+}
+
+    .box3-image img {
+        min-width: 540px;
+        max-height: 100px;
+        border-radius: 0px 0px 16px 16px;
+        padding: 0px;
+    }
+
+.image-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #fff;
+    font-family: Montserrat;
+    font-size: 6pt;
+    color: #000;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
 /* Estilos adicionales para dispositivos móviles */
 @media only screen and (max-width: 600px) {
     .content {
@@ -366,4 +419,22 @@ body, html {
         top: -8px;
         right: 12px;
     }
+
+    .box3 {
+        width: 110%;
+    }
+
+    .box3-text {
+        width: 90%;
+    }
+
+    .box3-image {
+        width: 100%;
+    }
+
+        .box3-image img {
+            min-width: 100%;
+            max-height: 100px;
+        }
+
 } 
